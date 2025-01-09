@@ -1,0 +1,22 @@
+{
+  "Settings": {
+    "BaseUrl": "https://www.saucedemo.com/",
+    "ApiUrl": "https://www.saucedemo.com/api/v1/",
+    "UsersSettings": {
+      "Admin": "standard_user",
+      "AdminPwd": "secret_sauce",
+      "User": "locked_out_user",
+      "UserPwd": "secret_sauce"
+    },
+    "PlaywrightSettings": {
+      "BrowserName": "chrome",
+      "Headless": false,
+      "Args": [
+        "--start-maximized",
+        "--auth-server-allowlist='_'"
+      ],
+      "SlowMo": 0,
+      "DefaultTimeout": 10000
+    }
+  }
+}
